@@ -14,6 +14,8 @@ This plugin is wrappers above the native OS's credential's vault and will choose
    a. Save In Keychain Node
    b. Read From Keychain Node
    c. Delete From Keychain Node.
+   
+   
    ![image](https://user-images.githubusercontent.com/5199691/112023256-170cd800-8b59-11eb-96be-1ca0e9a73519.png)
 
 
