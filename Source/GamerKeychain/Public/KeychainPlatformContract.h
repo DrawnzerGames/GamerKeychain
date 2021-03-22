@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-
 #include "Model/KeychainReadModel.h"
 #include "Model/KeychainSaveModel.h"
 #include "KeychainPlatformContract.generated.h"

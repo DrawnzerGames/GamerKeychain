@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "KeychainPlatformContract.h"
 #include "Model/KeychainSaveModel.h"
-
 #include "GamerKeychainManager.generated.h"
 
 /**
