@@ -18,6 +18,8 @@ This plugin is wrappers above the native OS's credential's vault and will choose
 3. Linux - Abstract implementation done, full support to be added soon.
 4. Mac - My game don't target Mac, but PRs are welcome.
 5. iOS - My game don't target iOS, but PRs are welcome.
+6. Xbox - The Xbox OS is custom version of Windows, so this plugin should work there too.
+7. PlayStation - Don't know.
 
 
 **TODO for production**
