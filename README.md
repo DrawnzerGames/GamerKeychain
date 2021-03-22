@@ -13,6 +13,9 @@ This plugin is wrappers above the native OS's credential's vault and will choose
 2. For blueprinters, I have exposed Async task nodes for save, read and delete.
    
    ![image](https://user-images.githubusercontent.com/5199691/112023256-170cd800-8b59-11eb-96be-1ca0e9a73519.png)
+   
+   ![image](https://user-images.githubusercontent.com/5199691/112025300-0a897f00-8b5b-11eb-9aac-a802e866fabd.png)
+
 
 
 **PLUGIN STATE**
