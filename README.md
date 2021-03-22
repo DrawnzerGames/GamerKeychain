@@ -11,11 +11,6 @@ This plugin is wrappers above the native OS's credential's vault and will choose
 **HOW TO USE**
 1. If you are experienced C++ UE4 dev, its piece of cake.
 2. For blueprinters, I have exposed Async task nodes for save, read and delete.
-
-   a. Save In Keychain Node
-   b. Read From Keychain Node
-   c. Delete From Keychain Node.
-   
    
    ![image](https://user-images.githubusercontent.com/5199691/112023256-170cd800-8b59-11eb-96be-1ca0e9a73519.png)
 
