@@ -10,6 +10,10 @@
 #include "Platform/Android/KeychainAndroidImpl.h"
 #endif
 
+#if PLATFORM_LINUX
+#include "Platform/Linux/KeychainLinuxImpl.h"
+#endif
+
 UGamerKeychainManager* UGamerKeychainManager::GamerKeychainManager;
 
 void UGamerKeychainManager::Create()
@@ -29,6 +33,11 @@ void UGamerKeychainManager::Create()
 	//Android.
 #if PLATFORM_ANDROID
 	Get()->PlatformKeychainService = NewObject<UKeychainAndroidImpl>(GetTransientPackage(), TEXT("Android_PlatformKeychainService"));
+#endif
+
+	//Linux
+#if PLATFORM_LINUX
+	Get()->PlatformKeychainService = NewObject<UKeychainLinuxImpl>(GetTransientPackage(), TEXT("Linux_PlatformKeychainService"));
 #endif
 }
 
