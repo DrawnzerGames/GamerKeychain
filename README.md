@@ -1,5 +1,5 @@
 # GamerKeychain
-The Utility Plugin for Unreal Engine that enables the game to persist user's credentials securly in OS's credential vault (Credentials Manager for Windows 10, Keystore for Android, Secret Service for linux, Keychain for Mac-OSX).
+The Utility Plugin for Unreal Engine that enables the game to persist user's credentials securely in OS's credential vault (Credentials Manager for Windows 10, Keystore for Android, Secret Service for linux, Keychain for Mac-OSX).
 
 This plugin is wrappers above the native OS's credential's vault and will choose respective implementation based on OS.
 
