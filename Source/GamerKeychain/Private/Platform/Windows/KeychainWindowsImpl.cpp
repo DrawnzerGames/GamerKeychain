@@ -1,6 +1,7 @@
 // Copyright 2021 - Infinity DrawnzerGames, Inc. All Rights Reserved.
 
 #include "Platform/Windows/KeychainWindowsImpl.h"
+#include "Windows/WindowsWindow.h"
 #include <Windows.h>
 #include <wincred.h>
 #include <intsafe.h>
